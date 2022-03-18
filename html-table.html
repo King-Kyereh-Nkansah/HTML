@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Employment Application</legend>
+    <table border="0" cellspacing="2" cellpadding="2" width="600">
+    <tr>
+        <td>First Name</td>
+        <td><input type="text" name="fname" maxlength="50" required></td>
+    </tr>
+    <tr>
+        <td>Last Name</td>
+        <td><input type="text" name="lname" maxlength="50" required></td>
+    </tr>
+    <tr>
+        <td>Position</td>
+        <td><select name="position" id="job-poition">
+            <option value="AC">Accountant</option>
+            <option value="RE">Receptionist</option>
+            <option value="AD">Administrator</option>
+            <option value="SU">Supervisor</option>
+        </select>
+    </td>
+    </tr>
+    <tr>
+        <td>Experience Level</td>
+        <td>
+            <select name="experience" id="experience-level">
+                <option value="EL">Entry Level</option>
+                <option value="SE">Some Experience</option>
+                <option value="VE">Very Experienced</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Job Type</td>
+        <td><input type="checkbox" name="ftime"> Full-Time
+            <input type="checkbox" name="ptime"> Part-Time
+            <input type="checkbox" name="ct"> Contract
+        </td>
+    </tr>
+    <tr>
+        <td>Employment Status</td>
+        <td><input type="radio" name="estatus" value="employed"> Employed
+            <input type="radio" name="estatus" value="unemployed"> Unemployed
+            <input type="radio" name="estatus" value="student"> Student
+        </td>
+    </tr>
+    <tr>
+        <td>Additional Comment</td>
+        <td><textarea name="comment" id="additional-comment" cols="60" rows="5"></textarea></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" name="submit" value="submit"> 
+        <input type="reset" name="reset" value="reset"> 
+    </td>
+    </tr>
+</table>
+</fieldset>
+</form>
+</body>
+</html>
