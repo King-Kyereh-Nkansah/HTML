@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Personal details</legend>
+            <label for="FN">First Name</label><br>
+            <input type="text" placeholder="First name only"><br>
+            <label for="LN">Last Name</label><br>
+            <input type="text" placeholder="Last name only"><br>
+            <label for="DB">Date Of Birth</label><br>
+            <input type="date" placeholder="mm/dd/yyyy"><br>
+            <label for="EM">Email</label><br>
+            <input type="email" placeholder="example@domain.com"><br>
+            <label for="TL">Telephone</label><br>
+            <input type="text" placeholder="Eg. +447000 000000"><br>
+            <label for="SS">ShoeSize</label><br>
+            <input type="number" placeholder="9"><br>
+            <label for="FS">Flying Skill Level (1 low-100 high)</label>
+            <input type="range" min="0" max="50" value="1">
+
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <br>
+    <form action="#">
+        <fieldset>
+            <legend>Billing address</legend>
+            <label for="Ad">Address </label>
+            <textarea name="comment" id="" cols="30" rows="10"></textarea><br>
+            <label for="PC">Post code</label><br>
+            <input type="text"><br>
+            <label for="CN">Country</label><br>
+            <input type="text">
+            
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <form action="#">
+        <fieldset>
+            <legend>Card details</legend>
+            <fieldset>
+                <legend>Card type</legend>
+                <input type="radio" name="cardtype" value="Visa">Visa
+                <input type="radio" name="cardtype" value="mastercard">Mastercard
+                <input type="radio" name="cardtype" value="amex">Amex
+            </fieldset>
+            <label for="NM">Name</label><br>
+            <input type="text" placeholder="Name as it appears on yc"><br>
+            <label for="CN">Card Number</label><br>
+            <input type="number"><br>
+            <label for="SC">Security Code</label><br>
+            <input type="number"><br>
+            <label for="ED">Expiry Date</label><br>
+            <input type="text" placeholder="------------">
+        </fieldset><br>
+        <fieldset>
+            <input type="submit" value="Place Order">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
